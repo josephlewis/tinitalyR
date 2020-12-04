@@ -3,4 +3,5 @@
 export(download_dem)
 export(get_tiles)
 import(raster)
+import(rgdal)
 importFrom(rgeos,gIntersects)

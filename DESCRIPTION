@@ -5,10 +5,10 @@ Version: 0.1.0
 Date: 2020-12-04
 Authors@R: person("Joseph", "Lewis", email = "josephlewis1992@gmail.com", role = c("aut", "cre"))
 Maintainer: Joseph Lewis <josephlewis1992@gmail.com>
-Description: Retrieves relevant DEM tiles to download based on supplied sp object
+Description: Retrieves relevant DEM tiles to download based on supplied sp object.
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 2.10)
-Imports: rgeos, raster, sp
+Imports: rgdal, rgeos, raster, sp
 RoxygenNote: 7.1.1
