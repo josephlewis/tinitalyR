@@ -1,11 +1,14 @@
 Package: tinitalyR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Download 10m Digital Elevation Model data for Italy (tinitaly)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Date: 2020-12-04
+Authors@R: person("Joseph", "Lewis", email = "josephlewis1992@gmail.com", role = c("aut", "cre"))
+Maintainer: Joseph Lewis <josephlewis1992@gmail.com>
+Description: Retrieves relevant DEM tiles to download based on supplied sp object
+License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 2.10)
+Imports: rgeos, raster, sp
+RoxygenNote: 7.1.1
