@@ -17,11 +17,11 @@ Download tinitaly DEMs using supplied tile names
 }
 \examples{
 
-tiles <- c('w42510_s10', 'w43010_s10')
+tiles <- c('w43010_s10')
 
 dem <- download_dem(x = tiles)
 
 }
 \references{
-Tarquini S., Isola I., Favalli M., Battistini A. (2007) TINITALY, a digital elevation model of Italy with a 10 m-cell size (Version 1.0) [Data set]. Istituto Nazionale di Geofisica e Vulcanologia (INGV). \url{https://doi.org/10.13127/TINITALY/1.0.?\200\235}
+Tarquini S., Isola I., Favalli M., Battistini A. (2007) TINITALY, a digital elevation model of Italy with a 10 m-cell size (Version 1.0) [Data set]. Istituto Nazionale di Geofisica e Vulcanologia (INGV). \url{https://doi.org/10.13127/TINITALY/1.0}
 }

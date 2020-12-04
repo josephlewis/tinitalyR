@@ -1,7 +1,9 @@
 tinitalyR - version 0.1.0
 =============================
 
-The R library <b>tinitalyR</b> provides the functionality to retrieve and download the Italy 10m Digital Elevation Model data from https://doi.org/10.13127/TINITALY/1.0
+The R library <b>tinitalyR</b> provides the functionality to retrieve and download the Italian 10m Digital Elevation Model from https://doi.org/10.13127/TINITALY/1.0
+
+CRS argument: +proj=utm +zone=32 +datum=WGS84 +units=m +no_defs
 
 Getting Started
 ---------------
@@ -21,6 +23,8 @@ Usage
 
     library(tinitalyR)
     
+    # sp object coordinate system expected to be "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs"
+    
     sp <- sp::SpatialPoints(cbind(1038553, 4302213))
     
     tile_names <- get_tiles(x = sp)
@@ -29,6 +33,11 @@ Usage
 
     dem <- download_dem(x = tile_names)
     
+#### Italian DEM tile map
+
+    ita_tile_map <- ita
+    
+    CRS arguments: +proj=utm +zone=32 +datum=WGS84 +units=m +no_defs
 
 Versioning
 ----------
