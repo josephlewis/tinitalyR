@@ -1,7 +1,7 @@
 tinitalyR - version 0.1.0
 =============================
 
-The R library <b>tinitalyR</b> provides the functionality to retrieve and download the Italy 10m Digital Elevation Model data from \url{https://doi.org/10.13127/TINITALY/1.0.?\200\235}. 
+The R library <b>tinitalyR</b> provides the functionality to retrieve and download the Italy 10m Digital Elevation Model data from https://doi.org/10.13127/TINITALY/1.0
 
 Getting Started
 ---------------
@@ -19,7 +19,7 @@ Usage
 
 #### Retrieving DEM tile names
 
-    library(leastcostpath)
+    library(tinitalyR)
     
     sp <- sp::SpatialPoints(cbind(1038553, 4302213))
     
@@ -48,5 +48,4 @@ Citation
 
 Please cite as:
 
-    Lewis, J. (2020) leastcostpath: Modelling Pathways and Movement Potential Within a Landscape (version 1.7.8). 
-    Available at: https://cran.r-project.org/web/packages/leastcostpath/index.html
+    Lewis, J. (2020) tinitalyR: Download 10m Digital Elevation Model data for Italy (tinitaly). R package version 0.1.0
